@@ -4,6 +4,9 @@ body {
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 }
+html{
+	background-color: #E0E0E3;
+}
 a {
 	text-decoration: none;
 	color: #036;
@@ -37,7 +40,7 @@ pre, pre code {
 	background-color: #223;
 }
 pre code {
-	padding: 0;	
+	padding: 0;
 }
 .hide {
     display: none;
@@ -56,14 +59,14 @@ table {
 		padding: 5px 15px;
 		margin: 0;
 	}
-	
+
 	th {
 		border-color: #555;
 		background: #555;
 		color: #eee;
 		font-weight:normal;
 	}
-	
+
 	tr:hover {
 		background: rgba(255,255,0,0.2);
 	}
