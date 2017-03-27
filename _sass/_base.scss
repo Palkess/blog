@@ -5,7 +5,9 @@ body {
 	line-height: $base-line-height;
 }
 html{
-	background-color: #E0E0E3;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 }
 a {
 	text-decoration: none;
